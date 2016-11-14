@@ -1,3 +1,4 @@
+import tensorflow as tf
 import os
 
 from six.moves import xrange  
