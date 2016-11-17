@@ -18,7 +18,6 @@ tf.app.flags.DEFINE_integer('max_steps', 500,
 tf.app.flags.DEFINE_boolean('log_device_placement', False,
                             """Whether to log device placement.""")
 
-
 def train():
   with tf.Graph().as_default():
     global_step = tf.Variable(0, trainable=False)
