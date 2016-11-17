@@ -3,7 +3,7 @@ import os
 
 from six.moves import xrange  
 
-IMAGE_SIZE = 32 #resizing image from 48x48 to 32x32.
+IMAGE_SIZE = 32 #resizing image from 48x48 to 32x32
 
 NUM_CLASSES = 7
 NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 28709 
