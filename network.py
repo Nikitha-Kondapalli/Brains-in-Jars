@@ -45,7 +45,6 @@ def inputs(eval_data):
   return Input.inputs(eval_data=eval_data, data_dir=data_input_dir,
                               batch_size=FLAGS.batch_input_size)
 
-
 def inference(images):
   # conv0 layer takes 32x32 images as input and outputs 24x24 feature maps.
   with tf.variable_scope('conv0') as scope:
